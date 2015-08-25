@@ -1,0 +1,5 @@
+Library
+  signature HO_MATCH
+  functor HOMatch
+is
+  higher-order-matching.cm (bind:(anchor:libs value:lib))

@@ -1,0 +1,9 @@
+Library
+  signature HO_MATCH
+  functor HOMatch
+is
+  $libs/cmlib/cmlib.cm
+  $libs/sml-abt/abt.cm
+
+  src/match.sig
+  src/match.fun
